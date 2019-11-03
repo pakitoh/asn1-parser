@@ -26,7 +26,7 @@ should produce on standard output the data representation of the parsed contents
 
 To simplify the process the following namespace can be used as a starting point:
 
-`
+```clojure
 (ns asn1.parser
   (:require [clojure.string  :as str]
             [clojure.java.io :as io]
@@ -58,4 +58,4 @@ To simplify the process the following namespace can be used as a starting point:
 	(binding [*out* *err*]
 	  (println "no path given")
 	  (System/exit 1))))
-`
+```
